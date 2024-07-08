@@ -212,7 +212,7 @@ class Coder:
         dirty_commits=True,
         dry_run=False,
         map_tokens=1024,
-        verbose=False,
+        verbose=True,
         assistant_output_color="blue",
         code_theme="default",
         stream=True,
