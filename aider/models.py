@@ -348,13 +348,21 @@ MODEL_SETTINGS = [
     ),
     ModelSettings(
         "openai//dataset/pretrained-models/DeepSeek-Coder-V2-Lite-Instruct",
-        "whole",
+        "diff",
         weak_model_name="deepseek-coder-v2-lite",
         use_repo_map=True,
         send_undo_reply=True,
         accepts_images=False,
         lazy=True,
         reminder_as_sys_msg=True,
+    ),
+    ModelSettings(
+        "openai//dataset-vlm/ywli/Models/LLM/llama-3/Meta-Llama-3-70B-Instruct",
+        "diff",
+        weak_model_name="Meta-llama3-70b-instruct",
+        use_repo_map=False,
+        send_undo_reply=False,
+        examples_as_sys_msg=True,
     ),
 ]
 

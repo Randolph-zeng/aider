@@ -86,6 +86,7 @@ The REPLACE lines are already in {path}!
         res += (
             "The SEARCH section must exactly match an existing block of lines including all white"
             " space, comments, indentation, docstrings, etc\n"
+            "PLEASE MAKE SURE YOUR SEARCH BLOCK MATCHES EXACTLY THE ORIGINAL LINE !!!\n\n"
         )
         if passed:
             pblocks = "block" if len(passed) == 1 else "blocks"

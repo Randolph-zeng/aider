@@ -148,4 +148,5 @@ If you want to put code in a new file, use a *SEARCH/REPLACE block* with:
 
 {lazy_prompt}
 ONLY EVER RETURN CODE IN A *SEARCH/REPLACE BLOCK*!
+REMEMBER!! Every *SEARCH* section must *EXACTLY MATCH* the existing source code, character for character, including all comments, docstrings, etc. 
 """
